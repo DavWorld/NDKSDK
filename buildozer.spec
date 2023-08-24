@@ -7,13 +7,13 @@ title = iRecordMax
 package.name = ilyassaadidilpython
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.testGoirevordmax
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,json,kv,jpg
+source.include_exts = py,png,json,kv,jpg,atlas
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.11.4
+osx.python_version = 3
 
 # Kivy version to use
 osx.kivy_version = 2.2.1
